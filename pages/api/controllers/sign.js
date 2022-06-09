@@ -1,7 +1,7 @@
 "use strict";
 
 import request from "request"
-import { sendSlackMessage } from "../services/slackService"
+import { sendSlackMessage } from "../services/slackservice"
 
 function capitalize(s) {
   return s && s[0].toUpperCase() + s.slice(1).toLowerCase();
