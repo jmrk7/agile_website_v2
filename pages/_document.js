@@ -16,6 +16,8 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic" />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" />
+          <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/space-grotesk" />
           {/* Font Awesome */}
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
           {/* Style Sheet */}
