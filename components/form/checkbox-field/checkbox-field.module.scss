@@ -5,7 +5,7 @@
   font-size: 1rem;
   font-family: 'Space Grotesk', sans-serif;
   line-height: 2rem;
-  color: $color-1;
+  color: $color-4;
   &_input {
     position: relative;
     margin-right: 1rem !important;
@@ -31,7 +31,8 @@
       height: 1.25rem;
       border: 2px solid transparent;
       border-radius: 0.25rem;
-      background-color: $color-6;
+      background-color: $color-1;
+      border-color: $lightgrey;
       transition: .3s background-color;
       box-sizing: content-box !important;
       cursor: pointer;

@@ -1,14 +1,16 @@
 @import '../../public/styles/globals.scss';
-
+ 
 .signUpHero {
-  margin: 100px auto 30px !important;
+  margin: 10px auto 30px !important;
   padding: 0 15px 0 30px;
   width: 40%;
-  background-color: $color-2;
+  background-color: $color-1;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 400;
   margin: 0 auto;
-  color: $color-1;
+  color: $color-4;
+  border-radius: 15px;
+  padding-top: 10px;
 
   @media (max-width: 768px) {
     width: 100%;
@@ -22,12 +24,11 @@
     flex: 1;
     margin-bottom: 40px;
     &_image {
-      width: 350px;
-      height: 75px;
       max-width: 100%;
       object-fit: contain;
       cursor: pointer;
       display: flex;
+      margin-top: 15px;
     }
   }
 
@@ -37,7 +38,7 @@
     line-height: 2.3rem;
     font-weight: 400;
     font-size: 1.5rem;
-    color: $color-1;
+    color: $color-4;
   }
 
   &_featureContainer {

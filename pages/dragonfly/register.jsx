@@ -1,6 +1,7 @@
 import React from "react"
 
 import FormContainer from "/components/form-container"
+import Header from "/components/Dragonfly/Header_Register"
 import SignUpHero from "/components/Dragonfly/SignUpHero"
 import SignUpForm from "/components/Dragonfly/SignUpForm"
 
@@ -9,17 +10,20 @@ import * as styles from "./register.module.scss"
 
 const cx = classnames.bind(styles);
 
-const Register = () => { 
+const Register = () => {
   return (
-    <div style={{backgroundColor: "#0d0f19"}}>      
-      <div className={cx('signUpWrapper')}>
+    <div style={{ backgroundColor: "#fffff" }}>
+      <div className="agiletestware_body">
+        <Header />
+      </div>
+      <div className={cx("signUpWrapper")}>
         <SignUpHero />
         <FormContainer>
           <SignUpForm />
         </FormContainer>
-      </div>    
+      </div>
     </div>
-  )
+  );
 };
 
 export default Register;

@@ -206,7 +206,7 @@ const SignUpForm = () => {
             <ReCAPTCHA
               sitekey={process.env.RECAPTCHA_SITE_KEY}
               onChange={handleVerifyRecaptcha}
-              theme="dark"
+              theme="light"
             />
           </section>
 

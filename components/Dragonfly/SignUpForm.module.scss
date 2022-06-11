@@ -32,9 +32,9 @@
     margin-bottom: 32px;
     line-height: 2.625rem;
     font-weight: 400;
-    font-size: 2.1rem;
+    font-size: 2.1rem; 
     font-family: 'Space Grotesk', sans-serif;
-    color: $color-1;
+    color: $color-4;
   }
 
   &_loadingContainer {
@@ -53,7 +53,7 @@
     font-family: 'Space Grotesk', sans-serif;
 
     &__success {
-      color: $color-1;
+      color: $color-4;
     }
 
     &__failure {

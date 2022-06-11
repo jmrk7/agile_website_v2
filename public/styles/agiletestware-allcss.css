@@ -1848,6 +1848,7 @@ output {
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
+  height: 50px !important;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -2374,7 +2375,7 @@ fieldset[disabled] a.btn {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #333;
-  background-color: #e6e6e6;
+  background-color: #7584917d;
   border-color: #adadad;
 }
 .btn-default:active:hover,

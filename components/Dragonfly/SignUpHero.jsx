@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import classnames from "classnames/bind";
 
-import Logo from "/public/dragonfly_logo.png";
+import Logo from "/public/images/dragonfly_logo_home.png";
 
 import * as styles from "./SignUpHero.module.scss";
 
@@ -26,7 +26,7 @@ const SignUpHero = () => {
       <Link href="/dragonfly">
         <a className={cx("signUpHeroLogo")}>
           <div className={cx("signUpHeroLogo_image")}>
-            <Image src={Logo} alt="logo" />
+            <img src="/images/dragonfly_logo_home.png" alt="logo" width={"100%"} />
           </div>
         </a>
       </Link>

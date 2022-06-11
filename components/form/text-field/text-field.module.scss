@@ -7,7 +7,7 @@
   align-items: stretch;
   width: 100%;
   margin-bottom: 1rem;
-  color: $color-1 !important;
+  color: $color-4 !important;
 
   &_label {
     margin-bottom: 0.25rem;
@@ -27,16 +27,17 @@
     border: 3px solid transparent !important;
     border-radius: 0.25rem;
     font-family: 'Space Grotesk', sans-serif;
-    color: $color-1 !important;
-    background-color: $color-6 !important;
-    caret-color: $color-1;
+    color: $color-4 !important;
+    background-color: $lightwhite !important;
+    border: 1px solid $lightborder !important;
+    caret-color: $color-2;
     transition: 0.5s all;
     outline: none;
 
     &::placeholder {
       font-size: 1rem;
       font-family: 'Space Grotesk', sans-serif;
-      color: rgba(255, 255, 255, 0.3);
+      color: $color-2 !important;
     }
 
     &:focus,
