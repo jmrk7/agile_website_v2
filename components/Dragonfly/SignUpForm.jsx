@@ -78,7 +78,7 @@ const SignUpForm = () => {
           signUpResponse.status === 201 ||
           signUpResponse.status === 200
         ) {
-          Router.push(`/dragonfly`);
+          Router.push(`/dragonfly/thank-you`);
         } else {
           setResponseMessage(signUpResponse.data.message);
         }
