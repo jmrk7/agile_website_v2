@@ -35,9 +35,9 @@ const Header = () => {
                   </div>
                   <div className="btn-section">
                     <div className="btn-custom btn-sucess btn-dragonfly">
-                      <Link href="/dragonfly">
+                      <a href="/dragonfly">
                         Learn More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -63,9 +63,9 @@ const Header = () => {
                   </div>
                   <div className="btn-section">
                     <div className="btn-custom btn-sucess btn-bumblebee">
-                      <Link href="/bumblebee">
+                      <a href="/bumblebee">
                         Learn More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -92,9 +92,9 @@ const Header = () => {
                   </div>
                   <div className="btn-section">
                     <div className="btn-custom btn-sucess btn-firefly">
-                      <Link href="/firefly">
+                      <a href="/firefly">
                         Learn More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -127,9 +127,9 @@ const Header = () => {
                   </div>
                   <div className="btn-section">
                     <div className="btn-custom btn-sucess btn-pangolin">
-                      <Link href="/pangolin">
+                      <a href="/pangolin">
                         Learn More
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
