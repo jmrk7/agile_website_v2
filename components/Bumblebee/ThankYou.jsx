@@ -7,7 +7,6 @@ import * as styles from "./ThankYou.module.scss";
 import LayoutSectionContainer from "/components/Home/Layout.jsx";
 
 import DocsImage from '/public/doc.png';
-import DogImage from '/public/giphy-dog.webp';
 
 const cx = classnames.bind(styles);
 
@@ -57,7 +56,7 @@ const ThankYou = () => {
           </p>
           <p className={cx("thankYou_text")}>The Railflow Engineering Team</p>
           <div className={cx("thankYou_image")}>
-            <Image src={DogImage} alt="Dog" />
+            <img src={"/giphy-dog.webp"} alt="Dog" width={250}/>
           </div>
         </div>
       </LayoutSectionContainer>
