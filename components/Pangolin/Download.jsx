@@ -64,19 +64,19 @@ const Download = () => {
           <div className="col-lg-4 col-sm-12 col-md-6 col-sm-offset-0 col-md-offset-0 col-lg-offset-2">
             <h4 className="margintop40 dwn-h2">Jenkins User Guide</h4>
             <div className="btn-section dwn-btn single-button">
-              <a target="_blank" rel="noreferrer noopener" href="./docs/pangolin-docs/en/latest/ci-integration/jenkins/" className="btn-custom btn-icon free_trial_track" title="Jenkins Docs"><i className="fa fa-book"></i>Jenkins Docs</a>
+              <a target="_blank" rel="noreferrer noopener" href="https://pangolin.agiletestware.com/ci-integration/jenkins/" className="btn-custom btn-icon free_trial_track" title="Jenkins Docs"><i className="fa fa-book"></i>Jenkins Docs</a>
             </div>
             <h4 className="margintop40 dwn-h2">Bamboo User Guide</h4>
             <div className="btn-section dwn-btn">
-              <a target="_blank" rel="noreferrer noopener" href="./docs/pangolin-docs/en/latest/ci-integration/bamboo" className="btn-custom btn-icon free_trial_track" title="Bamboo Docs"><i className="fa fa-book"></i>Bamboo Docs</a>
+              <a target="_blank" rel="noreferrer noopener" href="https://pangolin.agiletestware.com/ci-integration/bamboo" className="btn-custom btn-icon free_trial_track" title="Bamboo Docs"><i className="fa fa-book"></i>Bamboo Docs</a>
             </div>
             <h4 className="margintop40 dwn-h2">TeamCity User Guide</h4>
             <div className="btn-section dwn-btn">
-              <a target="_blank" rel="noreferrer noopener" href="./docs/pangolin-docs/en/latest/ci-integration/teamcity" className="btn-custom btn-icon free_trial_track" title="TeamCity Docs"><i className="fa fa-book"></i>TeamCity Docs</a>
+              <a target="_blank" rel="noreferrer noopener" href="https://pangolin.agiletestware.com/ci-integration/teamcity" className="btn-custom btn-icon free_trial_track" title="TeamCity Docs"><i className="fa fa-book"></i>TeamCity Docs</a>
             </div>
             <h4 className="margintop40 dwn-h2">IBM Urban Code User Guide</h4>
             <div className="btn-section dwn-btn">
-              <a target="_blank" rel="noreferrer noopener" href="./docs/pangolin-docs/en/latest/ci-integration/urbancode" className="btn-custom btn-icon free_trial_track" title="Urban Code Docs"><i className="fa fa-book"></i>Urban Code Docs</a>
+              <a target="_blank" rel="noreferrer noopener" href="https://pangolin.agiletestware.com/ci-integration/urbancode" className="btn-custom btn-icon free_trial_track" title="Urban Code Docs"><i className="fa fa-book"></i>Urban Code Docs</a>
             </div>
           </div>
         </div>
