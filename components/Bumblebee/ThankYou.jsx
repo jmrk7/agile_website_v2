@@ -17,7 +17,7 @@ const ThankYou = () => {
       <LayoutSectionContainer>
         <div className={cx("thankYou_sectionContainer")}>
           <h1 className={cx("thankYou_title")}>
-            Thank you for signing up with Railflow.
+            Thank you for signing up with Bumblebee.
           </h1>
           <p className={cx("thankYou_text")}>
             We have emailed you Railflow trial license details. You can also see
@@ -30,7 +30,7 @@ const ThankYou = () => {
             our &nbsp;
             <a
               rel="noopener noreferrer"
-              href="https://railflow.atlassian.net/servicedesk/customer/portal/1"
+              href="https://railflow.atlassian.net/servicedesk/customer/portal/2"
               target="_blank"
             >
               support portal
@@ -41,10 +41,10 @@ const ThankYou = () => {
             <Image src={DocsImage} alt="download" />
             <a
               rel="noopener noreferrer"
-              href="https://docs.railflow.io/docs/intro"
+              href="http://bumblebee.agiletestware.com/"
               target="_blank"
             >
-              Railflow User Documentation
+              Bumblebee User Documentation
             </a>
           </div>
           <p className={cx("thankYou_text")}>
@@ -54,7 +54,7 @@ const ThankYou = () => {
             here to help, move very fast, and excited for you to evaluate
             Railflow.
           </p>
-          <p className={cx("thankYou_text")}>The Railflow Engineering Team</p>
+          <p className={cx("thankYou_text")}>The Agiletestware Engineering Team</p>
           <div className={cx("thankYou_image")}>
             <img src={"/giphy-dog.webp"} alt="Dog" width={250}/>
           </div>
