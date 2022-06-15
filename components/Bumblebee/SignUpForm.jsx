@@ -189,16 +189,7 @@ const SignUpForm = () => {
                 className={cx("signUpForm_termsLink")}
               >
                 Terms &amp; Conditions
-              </a>{" "}
-              and the{" "}
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://railflow.io/privacy"
-                className={cx("signUpForm_termsLink")}
-              >
-                Privacy Policy
-              </a>
+              </a>             
             </CheckboxField>
           </section>
 
