@@ -36,13 +36,13 @@ const Header = () => {
               <a onClick={goHome} style={{cursor: "pointer"}}><i className="fa fa-home" style={{fontSize: "20px"}}/></a>
             </li>
             <li><a href="#features" className="smooth-scroll">Features</a></li>
-            <li><a href="/docs/bumblebee-docs/en/latest/" target="_blank" className="smooth-scroll">Docs</a></li>
+            <li><a href="http://bumblebee.agiletestware.com/" target="_blank" rel="noreferrer noopener">Docs</a></li>
             <li><a href="#pricing" className="smooth-scroll">Pricing</a></li>
             <li><a href="#download" className="smooth-scroll">Download</a></li>
             <li className="dropdown">
               <a className="dropdown-toggle" data-toggle="dropdown" href="#">Support <span className="caret"></span></a>
               <ul className="dropdown-menu" style={{marginTop: "-5px"}}>
-                <li><a href="https://agiletestware.atlassian.net/servicedesk/customer/portal/2">Contact Us</a></li>
+                <li><a href="https://agiletestware.atlassian.net/servicedesk/customer/portal/2" target="_blank" rel="noreferrer noopener">Contact Us</a></li>
                 <li><a href="/partners">Partners</a></li>
               </ul>
             </li>

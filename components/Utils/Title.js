@@ -12,7 +12,7 @@ const title = [
     text: "Bumblebee | HP ALM and HP Performance Center DevOps Enablement Platform"
   },
   {
-    route: "firefly",
+    route: "/firefly",
     text: "Firefly | ReadyAPI Plugin for TestRail TCM | Agiletestware"
   },
   {

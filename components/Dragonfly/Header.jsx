@@ -37,7 +37,7 @@ const Introduce = () => {
               <a onClick={goHome} style={{cursor: "pointer"}}><i className="fa fa-home" style={{fontSize: "20px"}}/></a>
             </li>
             <li><a href="#features" className="smooth-scroll">Features</a></li>
-            <li><a href="" target="_blank" rel="noreferrer noopener" className="smooth-scroll">Docs</a></li>
+            <li><a href="https://dragonfly.agiletestware.com/" target="_blank" rel="noreferrer noopener">Docs</a></li>
             <li><a href="#pricing" className="smooth-scroll">Pricing</a></li>
             <li><a href="#download" className="smooth-scroll">Download</a></li>
             <li className="dropdown">

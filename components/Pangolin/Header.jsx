@@ -35,13 +35,13 @@ const Header = () => {
               <a onClick={goHome}><i className="fa fa-home" style={{fontSize: "20px", cursor: "pointer"}}/></a>
             </li>
             <li><a href="#features7" className="smooth-scroll">Features</a></li>
-            <li><a href="/docs/pangolin-docs/en/latest/" target="_blank" className="smooth-scroll">Docs</a></li>
+            <li><a href="http://pangolin.agiletestware.com/" target="_blank" rel="noreferrer noopener">Docs</a></li>
             <li><a href="#pricing" className="smooth-scroll">Pricing</a></li>
             <li><a href="#download" className="smooth-scroll">Download</a></li>
             <li className="dropdown">
               <a className="dropdown-toggle" data-toggle="dropdown" href="#">Support <span className="caret"></span></a>
               <ul className="dropdown-menu" style={{marginTop: "-5px"}}>
-                <li><a href="https://agiletestware.atlassian.net/servicedesk/customer/portal/2">Contact Us</a></li>
+                <li><a href="https://agiletestware.atlassian.net/servicedesk/customer/portal/2" target="_blank" rel="noreferrer noopener">Contact Us</a></li>
                 <li><a href="/partners">Partners</a></li>
               </ul>
             </li>

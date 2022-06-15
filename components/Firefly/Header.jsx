@@ -37,7 +37,7 @@ export default function Header() {
               <a href="#features" className="smooth-scroll">Features</a>
             </li>
             <li>
-              <a href="/docs/firefly-docs/en/latest/" target="_blank" className="smooth-scroll">Docs</a>
+              <a href="https://firefly.agiletestware.com/" target="_blank" rel="noreferrer noopener">Docs</a>
             </li>
             <li>
               <a href="#pricing" className="smooth-scroll">Pricing</a>
@@ -48,7 +48,7 @@ export default function Header() {
             <li className="dropdown">
               <a className="dropdown-toggle" data-toggle="dropdown" href="#">Support <span className="caret"></span></a>
               <ul className="dropdown-menu" style={{marginTop: "-5px"}}>
-                <li><a href="https://agiletestware.atlassian.net/servicedesk/customer/portal/2">Contact Us</a></li>
+                <li><a href="https://agiletestware.atlassian.net/servicedesk/customer/portal/2" target="_blank" rel="noreferrer noopener">Contact Us</a></li>
                 <li><a href="/partners">Partners</a></li>
               </ul>
             </li>
