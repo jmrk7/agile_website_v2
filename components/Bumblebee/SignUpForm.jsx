@@ -185,11 +185,20 @@ const SignUpForm = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://railflow.io/terms"
+                href="https://bumblebee.agiletestware.com/what-is-bumblebee/end-user-license-agreement/"
                 className={cx("signUpForm_termsLink")}
               >
                 Terms &amp; Conditions
-              </a>             
+              </a>{" "}
+              and the{" "}
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://bumblebee.agiletestware.com/what-is-bumblebee/privacy-policy/"
+                className={cx("signUpForm_termsLink")}
+              >
+                Privacy Policy
+              </a>
             </CheckboxField>
           </section>
 

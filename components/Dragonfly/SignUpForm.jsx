@@ -185,7 +185,7 @@ const SignUpForm = () => {
               <a
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://railflow.io/terms"
+                href="https://dragonfly.agiletestware.com/what-is-dragonfly/eula/"
                 className={cx("signUpForm_termsLink")}
               >
                 Terms &amp; Conditions
