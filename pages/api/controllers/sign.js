@@ -47,13 +47,13 @@ async function createNewLead(lead, response) {
 
     request(options, function (err, res, body) {
       if (res && (res.statusCode === 200 || res.statusCode === 201)) {
-        // sendSlackMessage(
-        //   `${capitalize(lead.custom_field.cf_products)} Signup: <${
-        //     process.env.FRESHSALES_API_URL
-        //   }${res.body.lead.id}|${res.body.lead.company.name} - ${
-        //     res.body.lead.display_name
-        //   }> :slightly_smiling_face:`
-        // );
+        sendSlackMessage(
+          `${capitalize(lead.custom_field.cf_products)} Signup: <${
+            process.env.FRESHSALES_API_URL
+          }${res.body.lead.id}|${res.body.lead.company.name} - ${
+            res.body.lead.display_name
+          }> :slightly_smiling_face:`
+        );
         response.status(200).send(res.body)
       }
       else {
